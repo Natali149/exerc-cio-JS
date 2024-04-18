@@ -7,7 +7,10 @@ function calcularMDC(a, b) {
     return a;
 }
 
-let numero1 = 9;
-let numero2 = 27;
-let resultado = calcularMDC(numero1, numero2);
-console.log(`MDC de ${numero1} e ${numero2}: ${resultado}`);
+let n1 = 9;
+let n2 = 27;
+let resultado = calcularMDC(n1, n2);
+console.log(`MDC de ${n1} e ${n2}: ${resultado}`);
+
+
+module.exports = { resultado }

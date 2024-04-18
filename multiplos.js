@@ -6,3 +6,5 @@ for (i = 1; i < 1000; i++) {
     }
 }
 console.log(`O resuldado da soma de todos os múltiplos de 5 ou 7 é de ${count} `);
+
+module.exports = { count }
